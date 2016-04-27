@@ -1,4 +1,4 @@
- module.exports = function ImpSwitch(implmentations) {
+ module.exports = function ImpSwitch(implmentations, options) {
      
     var selector = function(){
         return Object.keys(implmentations)[0];
@@ -24,4 +24,6 @@
             });
         }
     }
+
+     return implSwitch;
 };
