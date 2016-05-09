@@ -50,3 +50,31 @@ Expected Output (ignoring any asynchronous operations):
     Mock Implementation
 
     Real Implementation
+
+
+Alternative Calls! By Request
+
+    var superSwitch = switch('__SuperSwitch'); // '__SuperSwitch' create a switcher that doesnt require function name
+
+    superSwitch.go({ id : -1 }, success, failure)
+
+    superSwitch.go({ id : 1 }, success, failure)
+
+Expected Output (ignoring any asynchronous operations):
+
+    Mock Implementation
+
+    Real Implementation
+    
+
+Or
+
+    var mock = switch('mock');
+    mock.go({ id : -1 });
+    mock.go({ id : 1 });
+
+Expected Output:
+
+    Mock Implementation
+
+    Mock Implementation
