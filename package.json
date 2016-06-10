@@ -4,7 +4,7 @@
   "description": "Switch Between Implementations",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "./node_modules/mocha/bin/mocha test",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/dirwin517/ImpSwitch/issues"
   },
-  "homepage": "https://github.com/dirwin517/ImpSwitch#readme"
+  "homepage": "https://github.com/dirwin517/ImpSwitch#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
