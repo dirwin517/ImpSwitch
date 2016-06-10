@@ -1,6 +1,6 @@
 # ImpSwitch
 
-[![npm version](https://badge.fury.io/js/impswitch.svg)](https://badge.fury.io/js/impswitch) [![dependencies](https://david-dm.org/arupex/impswitch.svg)](http://github.com/arupex/impswitch) ![Build Status](https://api.travis-ci.org/arupex/impswitch.svg?branch=master) <a href='https://pledgie.com/campaigns/31873'><img alt='Pledge To Arupex!' src='https://pledgie.com/campaigns/31873.png?skin_name=chrome' border='0' ></a>
+[![npm version](https://badge.fury.io/js/impswitch.svg)](https://badge.fury.io/js/impswitch) [![dependencies](https://david-dm.org/arupex/impswitch.svg)](http://github.com/arupex/impswitch) ![Build Status](https://api.travis-ci.org/arupex/ImpSwitch.svg?branch=master) <a href='https://pledgie.com/campaigns/31873'><img alt='Pledge To Arupex!' src='https://pledgie.com/campaigns/31873.png?skin_name=chrome' border='0' ></a>
 
 Install
 
